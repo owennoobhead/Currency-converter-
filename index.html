@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Currency Converter</h1>
+    <div class="converter">
+        <input type="number" id="amount" placeholder="Enter amount">
+        <select id="fromCurrency">
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+            <option value="MYR">MYR</option>
+            <option value="RMB">RMB</option>
+        </select>
+        <select id="toCurrency">
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+            <option value="MYR">MYR</option>
+            <option value="RMB">RMB</option>
+        </select>
+        <button onclick="convertCurrency()">Convert</button>
+    </div>
+    <div id="result"></div>
+    <script src="Project.js"></script>
+</body>
+</html>
