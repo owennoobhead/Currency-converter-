@@ -10,14 +10,14 @@ h1 {
 }
 
 
-.converter {
+.amount {
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
 }
 
-.converter input,
-.converter select,
+.toCurrency,
+.from-currency,
 .converter button {
     margin: 5px;
     padding: 5px;
